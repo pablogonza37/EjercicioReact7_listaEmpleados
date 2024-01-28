@@ -7,3 +7,15 @@
   .mainPage {
     flex-grow: 1;
   }
+
+  .seccionEmpleados{
+    width: 100%;
+    height: auto;
+  }
+
+  .imgAvatar{
+    border: 1px solid red;
+  }
+  .card-body{
+    padding: 0;
+  }
