@@ -3,9 +3,9 @@ import EmpleadoAvatar from './EmpleadoAvatar';
 
 const EmpleadoRow = () => {
     return (
-        <Card className='d-flex flex-row'>
+        <Card className='d-flex flex-row p-sm-2'>
         <EmpleadoAvatar></EmpleadoAvatar>
-        <Card.Body className='w-75 d-flex flex-column text-start justify-content-center ms-3'>
+        <Card.Body className='w-75 d-flex flex-column text-start justify-content-center ms-lg-5 ms-md-3 ms-2'>
           <Card.Title>LAYA DUEÑAS</Card.Title>
           <Card.Text>
             CEO <span className="badge bg-secondary">Bussines</span>

@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <Container className='mainPage my-3'>
-        <h1 className='h1 display-3 text-center'>Lista de empleados</h1>
+      <Container className='mainPage my-3 px-lg-5'>
+        <h1 className='h1 display-3 text-center text-white'>Lista de empleados</h1>
         <EmpleadoList/>
       </Container>
       <Footer></Footer>

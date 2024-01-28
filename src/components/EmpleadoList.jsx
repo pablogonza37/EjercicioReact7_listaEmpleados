@@ -2,7 +2,7 @@ import EmpleadoRow from "./EmpleadoRow";
 
 const EmpleadoList = () => {
   return (
-    <section className="border border-danger seccionEmpleados text-center container my-4">
+    <section className=" seccionEmpleados text-center container p-lg-5">
       
       <EmpleadoRow></EmpleadoRow>
       <EmpleadoRow></EmpleadoRow>
