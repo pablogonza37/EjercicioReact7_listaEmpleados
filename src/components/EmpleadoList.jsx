@@ -1,19 +1,12 @@
 import EmpleadoRow from "./EmpleadoRow";
 
-const EmpleadoList = () => {
+const EmpleadoList = ({empleados}) => {
   return (
     <section className=" seccionEmpleados text-center container p-lg-5">
       
-      <EmpleadoRow></EmpleadoRow>
-      <EmpleadoRow></EmpleadoRow>
-      <EmpleadoRow></EmpleadoRow>
-      <EmpleadoRow></EmpleadoRow>
-      <EmpleadoRow></EmpleadoRow>
-      <EmpleadoRow></EmpleadoRow>
-      <EmpleadoRow></EmpleadoRow>
-      <EmpleadoRow></EmpleadoRow>
-      <EmpleadoRow></EmpleadoRow>
-      <EmpleadoRow></EmpleadoRow>
+      {empleados.map(empleado => (
+        <EmpleadoRow key={empleado.id} empleado={empleado}/>
+      ))}
     </section>
   );
 };

@@ -1,14 +1,16 @@
 import Card from 'react-bootstrap/Card';
 import EmpleadoAvatar from './EmpleadoAvatar';
 
-const EmpleadoRow = () => {
+const EmpleadoRow = ({empleado}) => {
+
+
     return (
-        <Card className='d-flex flex-row p-sm-2'>
-        <EmpleadoAvatar></EmpleadoAvatar>
-        <Card.Body className='w-75 d-flex flex-column text-start justify-content-center ms-lg-5 ms-md-3 ms-2'>
-          <Card.Title>LAYA DUEÑAS</Card.Title>
+        <Card className='d-flex flex-row p-sm-2 px-lg-5'>
+        <EmpleadoAvatar empleado={empleado}></EmpleadoAvatar>
+        <Card.Body className='w-75 d-flex flex-column text-start justify-content-center ms-lg-5 ms-md-3 ms-2 px-lg-5'>
+          <Card.Title>{empleado.fullName}</Card.Title>
           <Card.Text>
-            CEO <span className="badge bg-secondary">Bussines</span>
+          {empleado.title} <span className="badge bg-secondary">{empleado.department}</span>
           </Card.Text>     
         </Card.Body>
       </Card>    
