@@ -1,7 +1,9 @@
-const EmpleadoAvatar = ({ empleado }) => {
-  const ruta = "./src/asset/" + empleado.pic;
+import imagenes from "../asset/imagenes";
 
-  return <img variant="top" src={ruta} className="imgAvatar w-25 img-fluid" />;
+const EmpleadoAvatar = ({ empleado }) => {
+ 
+
+  return <img variant="top" src={imagenes[empleado.id -1]} className="imgAvatar w-25 img-fluid" />;
 };
 
 export default EmpleadoAvatar;

@@ -4,6 +4,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import EmpleadoList from "./components/EmpleadoList";
 
+
 function App() {
   const empleados = [
     {
