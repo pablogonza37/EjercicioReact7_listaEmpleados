@@ -1,11 +1,10 @@
-import imagenes from "../asset/imagenes";
 
-const EmpleadoAvatar = ({ empleadokey }) => {
-  console.log(empleadokey)
+
+const EmpleadoAvatar = () => {
   return (
     <img
       variant="top"
-      src={imagenes[empleadokey - 1]}
+      src='https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-Background-PNG-Clip-Art.png'
       className="imgAvatar w-25 img-fluid"
     />
   );
