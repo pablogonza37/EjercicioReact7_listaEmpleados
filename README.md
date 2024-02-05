@@ -37,6 +37,10 @@ Componentes Reutilizables: Los empleados se muestran utilizando componentes reut
 
 Bootstrap o Estilos Propios: Se pueden utilizar Bootstrap o estilos personalizados para la apariencia de la aplicación.
 
+## Demo
+
+Puedes ver una demostración del proyecto en vivo en [Netlify](https://extraordinary-crumble-d0f777.netlify.app/).
+
 ## Instalación
 
 Para ejecutar esta aplicación en tu entorno local, sigue estos pasos:
